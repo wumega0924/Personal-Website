@@ -1,0 +1,83 @@
+html {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../block09/Images/aboutpage\ background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -2;
+}
+h1 {
+    position:relative;
+    text-align: center;
+    color: rgb(89, 8, 155);
+    font-size: 25px;
+}
+#links {
+    text-align: center;
+}
+a {
+    display: inline-block;
+    color: rgb(4, 8, 233);
+    margin: 5px;
+    padding: 2px;
+}
+
+nav {
+    box-shadow:rgb(27, 167, 57);
+}
+h2 {
+    color: rgb(17, 134, 163);
+    font-size: 22px;
+}
+#content {
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin: 0px;
+    text-align: center;
+    padding: 2px;
+}
+footer {
+    background-color: #333333;
+    color: aliceblue;
+    height: 70px;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 12px -2px black;
+    z-index: -1;
+  }
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.media-link {
+    width: 60px; 
+    height: 60px; 
+    
+}
+.sports-picture {
+    height: 150px;
+    padding: 2px;
+}
+.sportsimage-container {
+    text-align: center;
+}
+.games-picture {
+    height: 120px;
+    padding: 5px;
+    margin: 10px;
+}
+.gamesimage-container {
+    text-align: center;
+}
